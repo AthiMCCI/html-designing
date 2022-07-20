@@ -20,13 +20,13 @@ label.logo
   color: white;
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
+  padding: center;
   font-weight: bold;
 }
 nav ul
 {
-  float: right;
-  margin-right: 20px;
+  float: left  ;
+  margin-right: 10px;
 }
 nav ul li
 {
@@ -111,6 +111,13 @@ a.active,a:hover
         background-size: cover;
         height: calc(100vh - 80px);
       }
+     
+.divscroll
+{
+overflow-x: hidden;
+overflow-y: auto;
+text-align: justify;
+}
 
 /*footer part*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -135,8 +142,13 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
-    padding: 70px 0;
+	position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(18, 18, 19, 0.897);
+  color: white;
+  text-align: center;
 }
 .footer-col{
    width: 25%;
